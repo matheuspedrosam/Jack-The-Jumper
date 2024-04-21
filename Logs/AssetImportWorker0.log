@@ -1,0 +1,476 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.21f1 (bf09ca542b87) revision 12519882'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Enterprise' Language: 'pt' Physical Memory: 24433 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Jogos Unity/Jack The Jumper
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51464
+Successfully changed project path to: F:/Jogos Unity/Jack The Jumper
+F:/Jogos Unity/Jack The Jumper
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [31948] Host "[IP] 192.168.1.107 [Port] 0 [Flags] 2 [Guid] 1714717152 [EditorId] 1714717152 [Version] 1048832 [Id] WindowsEditor(7,PEDROSA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [31948] Host "[IP] 192.168.1.107 [Port] 0 [Flags] 2 [Guid] 1714717152 [EditorId] 1714717152 [Version] 1048832 [Id] WindowsEditor(7,PEDROSA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 7.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Jogos Unity/Jack The Jumper/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7971 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005104 seconds.
+- Loaded All Assemblies, in  0.321 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.251 seconds
+Domain Reload Profiling: 571ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (132ms)
+		LoadAssemblies (96ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (115ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (252ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (198ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.623 seconds
+Refreshing native plugins compatible for Editor in 5.49 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.617 seconds
+Domain Reload Profiling: 1239ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (402ms)
+		LoadAssemblies (306ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (130ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (617ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (456ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (341ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4254 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 83 unused Assets / (317.0 KB). Loaded Objects now: 4709.
+Memory consumption went from 152.2 MB to 151.9 MB.
+Total: 3.377600 ms (FindLiveObjects: 0.386700 ms CreateObjectMapping: 0.138000 ms MarkObjects: 2.631400 ms  DeleteObjects: 0.220000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36251.238110 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Traps/Spikes
+  artifactKey: Guid(42305dfd0555b0444a56da276ac5ff57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Traps/Spikes using Guid(42305dfd0555b0444a56da276ac5ff57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118365b980e945824f5f96695d8c37ae') in 0.001968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.111651 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Traps/Spike Head
+  artifactKey: Guid(ecf9645d44fa6e64e94864303a2a21d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Traps/Spike Head using Guid(ecf9645d44fa6e64e94864303a2a21d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eeb897e971d2ee0056d8ca501a3d9bd') in 0.000380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.397641 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Traps/Spiked Ball
+  artifactKey: Guid(34ba0d1208e5ee54c87dd00c1f1c02ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Traps/Spiked Ball using Guid(34ba0d1208e5ee54c87dd00c1f1c02ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca40370e86a8d5149750b15d3e78ceb9') in 0.000436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.067427 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Traps/Spiked Ball/Chain.png
+  artifactKey: Guid(78f5fcb2bf682e64daf8dd2fd12a357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Traps/Spiked Ball/Chain.png using Guid(78f5fcb2bf682e64daf8dd2fd12a357a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4ee28f34a06d87d93793749dd2a115') in 0.081829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.398838 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Traps/Trampoline
+  artifactKey: Guid(ce9bd200c2670c245bb1f7e1fc186b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Traps/Trampoline using Guid(ce9bd200c2670c245bb1f7e1fc186b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f0414330bc7b52e6b0dd0ebe3ee88c') in 0.000437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.247634 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Traps/Arrow
+  artifactKey: Guid(49bbce89942093d468964ad65e52995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Traps/Arrow using Guid(49bbce89942093d468964ad65e52995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5ceeaff507bc63d917205a77a65278') in 0.000400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.240503 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels
+  artifactKey: Guid(2fddcafec3c00944c88bbcec6bfe2e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels using Guid(2fddcafec3c00944c88bbcec6bfe2e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb8ef32bce0b60fb8718203825c7941') in 0.000489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.092541 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/01.png
+  artifactKey: Guid(49018ce16620c554181d9c17b34546e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/01.png using Guid(49018ce16620c554181d9c17b34546e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7c2aac2b1bbd12b46c147c6c9616e8') in 0.011179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/03.png
+  artifactKey: Guid(d6293a7d1c542a6468f65f03327823d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/03.png using Guid(d6293a7d1c542a6468f65f03327823d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4932c968e83366500344c2035abcc394') in 0.010230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/06.png
+  artifactKey: Guid(c2abd3984e5c9b047bd09ce9b9200780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/06.png using Guid(c2abd3984e5c9b047bd09ce9b9200780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd683f046745eab830e1260c4fd1aea7d') in 0.010499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/08.png
+  artifactKey: Guid(eaa666810c55cec4d8564ca61c19a19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/08.png using Guid(eaa666810c55cec4d8564ca61c19a19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ceb9e078c5a21c31b6352690d40872') in 0.010564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005060 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/11.png
+  artifactKey: Guid(6f72bc7f97d57ab46801f6fe72103bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/11.png using Guid(6f72bc7f97d57ab46801f6fe72103bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d0bf1f6135054af7b04a7ef605a9cf') in 0.012970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/12.png
+  artifactKey: Guid(a8e5fc9c55c3efa419b35e7cd5c91c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/12.png using Guid(a8e5fc9c55c3efa419b35e7cd5c91c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5ddb41c9043657620c970176f5dbaf') in 0.011374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/16.png
+  artifactKey: Guid(7f25cf49d0b9e3b4e84d2ffa5cfc8c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/16.png using Guid(7f25cf49d0b9e3b4e84d2ffa5cfc8c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0684ac6604b3162a222e11721205b521') in 0.013629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/19.png
+  artifactKey: Guid(66f9aa70a541dbe48b2ec5dc4cb5749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/19.png using Guid(66f9aa70a541dbe48b2ec5dc4cb5749d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfb033fde6902256230fa38e6fa73c7') in 0.010231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/21.png
+  artifactKey: Guid(9a4ee40aaf47118498e076b542a5a44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/21.png using Guid(9a4ee40aaf47118498e076b542a5a44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38e6788f41f0588d29928ffeb05dd02') in 0.011158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/22.png
+  artifactKey: Guid(7c82cf98bf8e7944987eb960c1ad3b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/22.png using Guid(7c82cf98bf8e7944987eb960c1ad3b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb679096e60256e181d71bcd8e034fb') in 0.010152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/25.png
+  artifactKey: Guid(7087aa921ffb5c44c85546d81f922cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/25.png using Guid(7087aa921ffb5c44c85546d81f922cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14705e5bfa71dcdb3a16f4364a49b7da') in 0.010018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/27.png
+  artifactKey: Guid(735e109959e0e9245bb2b8705b9500d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/27.png using Guid(735e109959e0e9245bb2b8705b9500d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10f1048d7187e12f4ea21640c18deb2') in 0.011003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/30.png
+  artifactKey: Guid(463139d277e74304e938bb84cf7b12cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/30.png using Guid(463139d277e74304e938bb84cf7b12cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7c4df8689b2edab7ee26df15963cae') in 0.012280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/35.png
+  artifactKey: Guid(546899b333a732840b84073ec6284cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/35.png using Guid(546899b333a732840b84073ec6284cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f38b10904ae9adfdb1f40c6d2628dc7') in 0.010466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/37.png
+  artifactKey: Guid(152a2cabf81586043a2c21f1ae0e53a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/37.png using Guid(152a2cabf81586043a2c21f1ae0e53a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00cfddf8e90d68ac2d1e35020f7e148b') in 0.010556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/38.png
+  artifactKey: Guid(7752632c3935e4f42966609ff1fcf5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/38.png using Guid(7752632c3935e4f42966609ff1fcf5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be1ffce252202caabc64206ea171717') in 0.010710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/29.png
+  artifactKey: Guid(743bf5498a237c5489b8bee4ebf8792f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/29.png using Guid(743bf5498a237c5489b8bee4ebf8792f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8366d9ec7891464c830d2cd42e83c3') in 0.010746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/10.png
+  artifactKey: Guid(925cfcc870e6ecd429c83d85410961f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/10.png using Guid(925cfcc870e6ecd429c83d85410961f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7997664cca893264d29bafd12faa0112') in 0.010934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/46.png
+  artifactKey: Guid(528230116eba57d45a5a16575b54f248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/46.png using Guid(528230116eba57d45a5a16575b54f248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8cb76c45da852b52ef1878f28fe72bf') in 0.009619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/36.png
+  artifactKey: Guid(953b67c65924bca4b9db2696b8a9b67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/36.png using Guid(953b67c65924bca4b9db2696b8a9b67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152022a2d2e4a2a5f8e193c38e93f0b0') in 0.015713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/14.png
+  artifactKey: Guid(ff54419cfcfeeb742b2ef587aa9cbfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/14.png using Guid(ff54419cfcfeeb742b2ef587aa9cbfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3108f826015485dd0f9a003edcbea906') in 0.015487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/31.png
+  artifactKey: Guid(d33f559b907191c4ebf25772aaddb123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/31.png using Guid(d33f559b907191c4ebf25772aaddb123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e051f93806f8e6c764b49b5c1e5e015b') in 0.012576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/20.png
+  artifactKey: Guid(f19dca7a5280928459fcfdb63112f9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/20.png using Guid(f19dca7a5280928459fcfdb63112f9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6252ce02d6d1322e480fe9e3f10187') in 0.015183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/26.png
+  artifactKey: Guid(08c07e389c491554d903c581f13fac68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/26.png using Guid(08c07e389c491554d903c581f13fac68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5571a3350c35a29f97969836d1fed9a') in 0.013787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Levels/49.png
+  artifactKey: Guid(3a498c8524571d94ba6f738fcdaf17e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Levels/49.png using Guid(3a498c8524571d94ba6f738fcdaf17e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ec5fe56f8e132700f4b11c00d0f229') in 0.013204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.889456 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Buttons/Back.png
+  artifactKey: Guid(4593f7a30537a594689f2781ef505bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Buttons/Back.png using Guid(4593f7a30537a594689f2781ef505bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ff842be7a23d3fb1a13f5699d8ba91') in 0.013528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Buttons/Next.png
+  artifactKey: Guid(1d2bfd9a70d5d71499e6c5c068ab1fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Buttons/Next.png using Guid(1d2bfd9a70d5d71499e6c5c068ab1fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8627f333ca86620de10d6ae2a845b82a') in 0.011646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Buttons/Restart.png
+  artifactKey: Guid(ce2ba9ddab3a1e14d9de4160d184fbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Buttons/Restart.png using Guid(ce2ba9ddab3a1e14d9de4160d184fbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657cf8834bd45b6d2cca9fa0f6d60d3b') in 0.012985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imports/Pixel Adventure 1/Menu/Buttons/Volume.png
+  artifactKey: Guid(3ae3ac414bfb5e94faa768ed8af00040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Pixel Adventure 1/Menu/Buttons/Volume.png using Guid(3ae3ac414bfb5e94faa768ed8af00040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea09ac6577ff8b526944ce7475b750d') in 0.013218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
