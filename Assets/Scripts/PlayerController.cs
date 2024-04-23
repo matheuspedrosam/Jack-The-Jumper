@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        taNoChao = Physics2D.OverlapCircle(detectaChao.position, 0.2f, layerChao);
+        taNoChao = Physics2D.OverlapCircle(detectaChao.position, 0.6f, layerChao);
 
         Move();
 
@@ -36,19 +36,13 @@ public class PlayerController : MonoBehaviour
         if (Input.GetAxisRaw("Horizontal") > 0) {
             transform.Translate(velocidade * Time.deltaTime * Vector2.right);
             transform.localScale = new Vector3(1, 1, 0);
-            if(taNoChao){
-                anim.SetBool("run", true);
-            } else{
-                anim.SetBool("run", false);
-            }
+            anim.SetBool("run", true);
+
         } else if (Input.GetAxisRaw("Horizontal") < 0) {
             transform.Translate(velocidade * Time.deltaTime * Vector2.left);
             transform.localScale = new Vector3(-1, 1, 0);
-            if(taNoChao){
-                anim.SetBool("run", true);
-            } else {
-                anim.SetBool("run", false);
-            }
+            anim.SetBool("run", true);
+
         } else{
             anim.SetBool("run", false);
         }
@@ -59,7 +53,7 @@ public class PlayerController : MonoBehaviour
         if(Input.GetButtonDown("Jump") && taNoChao){
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             anim.SetBool("jump", true);
-        } else{
+        } else {
             anim.SetBool("jump", false);
         }
     }

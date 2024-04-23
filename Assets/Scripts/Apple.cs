@@ -32,8 +32,8 @@ public class Apple : MonoBehaviour
 
             collected.SetActive(true);
 
-            GameController.instace.totalScore += score;
-            GameController.instace.scoreText.text = GameController.instace.totalScore.ToString();
+            // GameController.instace.totalScore += score;
+            // GameController.instace.scoreText.text = GameController.instace.totalScore.ToString();
 
             Destroy(gameObject, 0.3f);
         }
