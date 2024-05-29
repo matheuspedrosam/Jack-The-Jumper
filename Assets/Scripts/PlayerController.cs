@@ -16,6 +16,12 @@ public class PlayerController : MonoBehaviour
 
     //Animation
     private Animator anim;
+
+    // Dano Queda
+    private bool noChao = true;
+    private float alturaParaDano = 10f;
+    private float alturaInicial;
+
     
     void Start()
     {
@@ -30,6 +36,8 @@ public class PlayerController : MonoBehaviour
         Move();
 
         Jump();
+
+        DanoDeQueda();
     }
 
     void Move(){
@@ -55,6 +63,24 @@ public class PlayerController : MonoBehaviour
             anim.SetBool("jump", true);
         } else {
             anim.SetBool("jump", false);
+        }
+    }
+
+    void DanoDeQueda(){
+        if(transform.position.y > 0){
+            if(noChao && !taNoChao){
+                noChao = false;
+                alturaInicial = transform.position.y;
+            } else if(!noChao && taNoChao){
+                noChao = true;
+                float alturaFinal = transform.position.y;
+                float distanciaQueda = alturaInicial - alturaFinal;
+
+                if(distanciaQueda > alturaParaDano){
+                    GameController.instace.ReduzirVida();
+                    alturaInicial = transform.position.y;
+                }
+            }
         }
     }
 }
