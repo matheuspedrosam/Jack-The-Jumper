@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     public Transform detectaChao;
     public LayerMask layerChao;
 
-    //Animation
+    // Animation
     private Animator anim;
 
     // Dano Queda
@@ -22,16 +22,22 @@ public class PlayerController : MonoBehaviour
     private float alturaParaDano = 10f;
     private float alturaInicial;
 
+    // Pontuar
+    private Score score;
+
     
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        score = FindObjectOfType<Score>();
     }
 
     void Update()
     {
-        taNoChao = Physics2D.OverlapCircle(detectaChao.position, 0.6f, layerChao);
+        // Debug.DrawRay(detectaChao.position, Vector3.down * 0.1f, Color.green);
+        // taNoChao = Physics2D.OverlapCircle(detectaChao.position, 0.4f ou 0.6f, layerChao);
+        taNoChao = Physics2D.Raycast(detectaChao.position, Vector2.down, 0.1f, layerChao);
 
         Move();
 
@@ -77,10 +83,17 @@ public class PlayerController : MonoBehaviour
                 float distanciaQueda = alturaInicial - alturaFinal;
 
                 if(distanciaQueda > alturaParaDano){
-                    GameController.instace.ReduzirVida();
+                    GameController.instace.ReduzirVida(false);
                     alturaInicial = transform.position.y;
                 }
             }
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D coll){
+        if(coll.gameObject.tag == "GalhoArvorePoint"){
+            score.Pontuar();
+            coll.gameObject.SetActive(false);
         }
     }
 }

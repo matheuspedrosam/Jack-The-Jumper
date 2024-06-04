@@ -13,16 +13,12 @@ public class CheckPoint : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-    }
-
-
     void OnTriggerEnter2D(Collider2D collider){
         if(collider.gameObject.tag == "Player"){
             if(anim.GetBool("bandeiraCapturada") == false){
                 audioSource.Play();
+                GameController.instace.actualCheckPointPositionX = transform.position.x;
+                GameController.instace.actualCheckPointPositionY = transform.position.y + 1;
             }
             anim.SetBool("bandeiraCapturada", true);
         }

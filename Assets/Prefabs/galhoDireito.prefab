@@ -190,10 +190,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3238827794411215435}
   - component: {fileID: 3499287869377366078}
-  - component: {fileID: 363302014415116890}
   m_Layer: 0
   m_Name: Pontuador
-  m_TagString: Untagged
+  m_TagString: GalhoArvorePoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -245,7 +244,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.756765, y: -0.03740297}
+  m_Offset: {x: 0.74837375, y: -0.03740297}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -256,18 +255,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.513529, y: 0.05610786}
+  m_Size: {x: 2.5303116, y: 0.056107856}
   m_EdgeRadius: 0
---- !u!114 &363302014415116890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6758617314235037374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e1d32d66c8c99f4790d0e43d2c29480, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: 1

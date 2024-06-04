@@ -8,7 +8,7 @@ public class Nuvem : MonoBehaviour
     void Start()
     {
         InvokeRepeating(nameof(MudarPosicao), 0f, 0.01f);
-        InvokeRepeating(nameof(RetornarPosicao), 360f, 360f);
+        InvokeRepeating(nameof(RetornarPosicao), 125f, 125f);
     }
 
     void MudarPosicao(){
@@ -16,6 +16,6 @@ public class Nuvem : MonoBehaviour
     }
 
     void RetornarPosicao(){
-        transform.position = new Vector3(170, 0, 0);
+        transform.position = new Vector3(160, transform.position.y, 0);
     }
 }

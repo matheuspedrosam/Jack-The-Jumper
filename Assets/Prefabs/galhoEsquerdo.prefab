@@ -120,7 +120,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.042937875, y: -0.28248388}
+  m_Offset: {x: 0.10325259, y: -0.28248388}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -131,7 +131,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.6640854, y: 0.18494178}
+  m_Size: {x: 1.7847148, y: 0.18494177}
   m_EdgeRadius: 0
 --- !u!50 &1549496976665899466
 Rigidbody2D:
@@ -190,10 +190,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5415994857668150117}
   - component: {fileID: 3653759957840565707}
-  - component: {fileID: 5804782259768872674}
   m_Layer: 0
   m_Name: Pontuador
-  m_TagString: Untagged
+  m_TagString: GalhoArvorePoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -245,7 +244,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.756765, y: -0.03740297}
+  m_Offset: {x: 0.7649002, y: -0.03740297}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -256,18 +255,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.513529, y: 0.05610786}
+  m_Size: {x: 2.5297995, y: 0.056107856}
   m_EdgeRadius: 0
---- !u!114 &5804782259768872674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8795110512004262166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e1d32d66c8c99f4790d0e43d2c29480, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: 1

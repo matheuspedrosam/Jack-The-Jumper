@@ -1,0 +1,1073 @@
+fileFormatVersion: 2
+guid: 29a472c29a0270e4b89f87a67bd862de
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 203
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efeaf4c2638c0f94f938074b7e352097
+      internalID: 1400929956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 203
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591a707c7067e7b4fb1ceec31a405faf
+      internalID: 132986380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 203
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9d1d563fa65f04b8c068e3efdbbdb9
+      internalID: -2121812639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_3
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 203
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e850aed0e98aef408149e8dfee629d2
+      internalID: 1132533266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_4
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 203
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edd8df0cb96c0548bcaa872ed47f76f
+      internalID: -595581037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_5
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 203
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec0e4091900e8b488b4ac9ffe212865
+      internalID: 101812209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_6
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 203
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ec68bfbe712f84db9c2d44beb9eb8d
+      internalID: 517299105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_7
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 203
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d62f70e62ade849bf4bc81dba167ee
+      internalID: 550645730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_8
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 203
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16561c84060b1864c9536049b014b0bc
+      internalID: -1315836998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_9
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 203
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65848e3c78224a64c83e5c458765e3f9
+      internalID: -574297203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 137
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bf9521a51cecc47b30d99ab59afd57
+      internalID: -955747011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_11
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 137
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395e9dd2f7dcf614684a7ec6d6ac0cb1
+      internalID: 1390623739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_12
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 137
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7851ede4e09810649ba9b30ce347887c
+      internalID: 1388748150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_13
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 137
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6277573328c31e14b97e8b76dd8ceae5
+      internalID: -1635721754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_14
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 137
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164f495f6e9ddb94e924053332b336fa
+      internalID: 501742974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_15
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 137
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cafe65d3deb9c42bd6982feae62f84
+      internalID: 782817948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_16
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 137
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cce6f6419f13d409b93c8746809e50
+      internalID: 1561463165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_17
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 137
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775ff0ec88094f24bad2106a37709db3
+      internalID: -1005682193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_18
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 137
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e080d22bc1d8f41b877b04ed426422
+      internalID: -738357315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_19
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 137
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec4bb328b3fd77429346e3f675948e2
+      internalID: -1222993579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_20
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 137
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28c92736e153b249b35c28462461e53
+      internalID: 984728634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 71
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbc6ecafae99f74db982335aedac26a
+      internalID: -1181734401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_22
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 71
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591b8432f436eca4fa501a686cffb49d
+      internalID: -434665453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_23
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 71
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ec0d6eff21a354bb2444a819d9a165
+      internalID: 948281286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_24
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 71
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b990dcae4b1fe4b83c8c21c9de0654
+      internalID: 1089855422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_25
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 71
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16104b16fac9cd347b3c37546ec4f355
+      internalID: -1035609617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_26
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 71
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2ae44b9c04661438e58cc30b7edd2e
+      internalID: -1821652747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_27
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 71
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f09d42b6c896e9489da0896e9b53e8e
+      internalID: -1765391568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_28
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 71
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbeaf564cea849f4bb09ae0cb6802720
+      internalID: -2006621641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_29
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 71
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb01358e64d5fb4abb42b2192f3917a
+      internalID: -1122265457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_30
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 71
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c1b6278d7a34144930075d92b81191
+      internalID: 1856257813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_31
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 71
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4b7db40cb9b7d45b35bc00a694b568
+      internalID: -2141430037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8d790a0e801eb47b1254e3341c6bc8
+      internalID: 500606205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_33
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 5
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb222c2c7681d84593d41cd03e28512
+      internalID: -287584364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_34
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 5
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c02c65278552e94f85f48b2f5494c5a
+      internalID: 504814811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_35
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 5
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad229d26e3d40b149ba502b3c3866072
+      internalID: 1186952573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_36
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 5
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a627a8eb3f80ef41aa31340a007879b
+      internalID: 597476026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_37
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 5
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c655515dfc3033b4185f85369af77dc8
+      internalID: 1878208695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_38
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 5
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19451e1dc5c7cbd48a9ad892031040dc
+      internalID: -1246341679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_39
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 5
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac6e6ab2b3224649a397c1d7fb1ab25
+      internalID: -1685393070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_40
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 5
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dba549042b93b48b7ebaa5bc107209
+      internalID: -1152477897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_41
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 5
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40aa8db1b93551f42aba3275803339fe
+      internalID: 1142980421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-nuvem-borda-cinza_42
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 5
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa96c9a9c0ce32489179975f52739b2
+      internalID: 2054838124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sprite-nuvem-borda-cinza_0: 1400929956
+      sprite-nuvem-borda-cinza_1: 132986380
+      sprite-nuvem-borda-cinza_10: -955747011
+      sprite-nuvem-borda-cinza_11: 1390623739
+      sprite-nuvem-borda-cinza_12: 1388748150
+      sprite-nuvem-borda-cinza_13: -1635721754
+      sprite-nuvem-borda-cinza_14: 501742974
+      sprite-nuvem-borda-cinza_15: 782817948
+      sprite-nuvem-borda-cinza_16: 1561463165
+      sprite-nuvem-borda-cinza_17: -1005682193
+      sprite-nuvem-borda-cinza_18: -738357315
+      sprite-nuvem-borda-cinza_19: -1222993579
+      sprite-nuvem-borda-cinza_2: -2121812639
+      sprite-nuvem-borda-cinza_20: 984728634
+      sprite-nuvem-borda-cinza_21: -1181734401
+      sprite-nuvem-borda-cinza_22: -434665453
+      sprite-nuvem-borda-cinza_23: 948281286
+      sprite-nuvem-borda-cinza_24: 1089855422
+      sprite-nuvem-borda-cinza_25: -1035609617
+      sprite-nuvem-borda-cinza_26: -1821652747
+      sprite-nuvem-borda-cinza_27: -1765391568
+      sprite-nuvem-borda-cinza_28: -2006621641
+      sprite-nuvem-borda-cinza_29: -1122265457
+      sprite-nuvem-borda-cinza_3: 1132533266
+      sprite-nuvem-borda-cinza_30: 1856257813
+      sprite-nuvem-borda-cinza_31: -2141430037
+      sprite-nuvem-borda-cinza_32: 500606205
+      sprite-nuvem-borda-cinza_33: -287584364
+      sprite-nuvem-borda-cinza_34: 504814811
+      sprite-nuvem-borda-cinza_35: 1186952573
+      sprite-nuvem-borda-cinza_36: 597476026
+      sprite-nuvem-borda-cinza_37: 1878208695
+      sprite-nuvem-borda-cinza_38: -1246341679
+      sprite-nuvem-borda-cinza_39: -1685393070
+      sprite-nuvem-borda-cinza_4: -595581037
+      sprite-nuvem-borda-cinza_40: -1152477897
+      sprite-nuvem-borda-cinza_41: 1142980421
+      sprite-nuvem-borda-cinza_42: 2054838124
+      sprite-nuvem-borda-cinza_5: 101812209
+      sprite-nuvem-borda-cinza_6: 517299105
+      sprite-nuvem-borda-cinza_7: 550645730
+      sprite-nuvem-borda-cinza_8: -1315836998
+      sprite-nuvem-borda-cinza_9: -574297203
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
