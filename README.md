@@ -4,6 +4,14 @@
   <img src="https://github.com/matheuspedrosam/Jack-The-Jumper/assets/100245785/fb27fc9a-8496-4afc-a17a-1804a72352e2" width="800px">
 </div>
 
+<div align="center">
+    <h4>
+      <a href="https://phenrique01.github.io/Jack-The-Jumper/">Clique aqui para baixar o jogo!</a>
+    </h4>
+</div>
+
+---
+
 <h2 align="center">O menino saltador 🏃</h2>
 
 <p align="center">
