@@ -8,7 +8,6 @@ public class SceneCavernaOut : MonoBehaviour
     public GameObject scenePoint;
     public GameObject arvoreCaverna;
     public GameObject paredeIvisivelCaverna;
-    public GameObject blockJogadorAposVencer;
     public GameObject galhosArvore2;
     public GameObject dragao;
     public GameObject personagem;
@@ -26,7 +25,6 @@ public class SceneCavernaOut : MonoBehaviour
         gameObject.SetActive(false);
         arvoreCaverna.SetActive(true);
         paredeIvisivelCaverna.SetActive(true);
-        blockJogadorAposVencer.SetActive(true);
         galhosArvore2.SetActive(true);
         relogio.SetActive(true);
         ovos.SetActive(true);

@@ -12,11 +12,16 @@ public class Inimigo : MonoBehaviour
     private float posicaoJogadorX;
     private float posicaoJogadorY;
     public float velocidadeInimigo;
+    public float velocidadeInimigoSetada;
 
     // Soltar fogo
     public GameObject fogo;
     public Transform fogoPos;
     private float timer;
+
+    void Start(){
+        velocidadeInimigoSetada = velocidadeInimigo;
+    }
 
     public bool isUpdateActive = true;
     void Update()
@@ -25,9 +30,15 @@ public class Inimigo : MonoBehaviour
         if(isUpdateActive){
             if(gameObject.activeInHierarchy){
 
-                SeguirJogador();
-
                 float distance = Vector2.Distance(transform.position, personagem.transform.position);
+
+                if(distance > 18){
+                    velocidadeInimigo = 50f;
+                } else{
+                    velocidadeInimigo = velocidadeInimigoSetada;
+                }
+
+                SeguirJogador();
                 
                 if (distance < 25){
                     timer += Time.deltaTime;

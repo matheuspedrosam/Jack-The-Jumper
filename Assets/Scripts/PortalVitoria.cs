@@ -8,6 +8,7 @@ public class PortalVitoria : MonoBehaviour
 {
     public GameObject personagem;
     public GameObject dragao;
+    public GameObject dragaoAlertContainer;
 
     public GameObject victoryPanel;
     public GameObject textPanel;
@@ -23,6 +24,7 @@ public class PortalVitoria : MonoBehaviour
             virtualCamera.enabled = false;
 
             Destroy(dragao);
+            Destroy(dragaoAlertContainer);
             Destroy(personagem);
 
             musicSenceAudio.Stop();

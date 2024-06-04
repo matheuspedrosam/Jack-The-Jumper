@@ -32,6 +32,7 @@ public class GameController : MonoBehaviour
     public Camera mainCamera;
     public CinemachineVirtualCamera virtualCamera;
     public GameObject dragao;
+    public GameObject dragaoAlertContainer;
     public TextMeshProUGUI highScoreNumberUGUI;
 
     //CheckPoint
@@ -108,6 +109,7 @@ public class GameController : MonoBehaviour
         highScoreNumberUGUI.text = PlayerPrefs.GetInt("highscore", 0).ToString();
         Destroy(personagem);
         Destroy(dragao);
+        Destroy(dragaoAlertContainer);
 
         virtualCamera.enabled = false;
         mainCamera.transform.position = new Vector3(-31.11f, 5f, mainCamera.transform.position.z);
