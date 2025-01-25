@@ -6,37 +6,37 @@
 
 <div align="center">
     <h4>
-      <a href="https://phenrique01.github.io/Jack-The-Jumper/">Clique aqui para baixar o jogo!</a>
+      <a href="https://phenrique01.github.io/Jack-The-Jumper/">Click here to download the game!</a>
     </h4>
 </div>
 
 ---
 
-<h2 align="center">O menino saltador 🏃</h2>
+<h2 align="center">The jumper boy 🏃</h2>
 
 <p align="center">
-  Jack The Jumper, é um jogo que está sendo desenvolvido por Matheus Pedrosa e Paulo Henrique pra disciplina sistema de multimídia.
+  Jack The Jumper, is a game that is being developed by Matheus Pedrosa and Paulo Henrique for the multimedia systems discipline.
 </p>
 
 ---
 
-<h2>Sinopse 🎞️</h2>
+<h2>Synopsis 🎞️</h2>
 
 <p>
-  Um menino humilde que após encontrar uma caixa com sementes mágicas douradas, acaba se aventurando.
+  A humble boy that after found a box with golden magic seeds, goes to an adventure.
 </p>
 
 ---
 
-<h2>Gameplay do jogo 🕹️</h2>
+<h2>Gameplay 🕹️</h2>
 
 <p>
-Jack The Jumper, é um jogo no formato 2d onde o personagem principal se chama jack e pode se mover no eixo x e y. E a cada vez que ele vai subindo a câmera irá subindo junto com ele, caso ele caia ou sofra dano do dragão, ele perde uma vida de um total de 3 vidas, e retornará de seu último checkpoint. Após perder as 3 vidas será um game over.
+Jack The Jumper is a 2D game where the main character is called Jack and can move on the x and y axis. And every time he goes up the camera will go up with him, if he falls or suffers damage from the dragon, he will lose one life out of a total of 3 lives, and will return from his last checkpoint. After losing all 3 lives it will be game over.
 </p>
 
 ---
 
-<h2>Desenvolvedores 👨‍💻</h2>
+<h2>Developers 👨‍💻</h2>
 
 <div>
   <a href="https://github.com/matheuspedrosam">@Matheus Pedrosa</a>
